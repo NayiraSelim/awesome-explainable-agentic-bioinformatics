@@ -53,6 +53,10 @@ It focuses on building a structured reference for LLMs, MAS, XAI, transparency, 
   `agentic-ai, multi-agent-systems, drug-discovery, biopharma, automation`, [paper]  
   — Conceptual analysis of agentic AI and multi-agent collaboration frameworks that automate and optimize drug discovery pipelines, including autonomous target identification, high-throughput virtual screening, toxicity and ADMET prediction, and AI-driven adaptive clinical trial design. Highlights the role of coordinated AI agents in personalizing medicine and reducing development timelines and failure rates.
 
+- *"Reinforcing Clinical Decision Support through Multi-Agent Systems and Ethical AI Governance"*, 2024,  
+  `multi-agent-systems, clinical-decision-support, ethical-ai, transparency, icu, explainability`, [paper]  
+  — Proposes a modular multi-agent architecture for ICU clinical decision support, including lab-analysis agents, vitals interpreters, contextual reasoners, prediction modules, and validation agents. Built on the eICU database, the system emphasizes transparency, autonomy, fairness, and accountability, improving interpretability and trustworthiness in AI-assisted clinical decisions.
+
 
 ---
 
@@ -70,6 +74,15 @@ It focuses on building a structured reference for LLMs, MAS, XAI, transparency, 
   `epigenomics, explainable-ai, histone-modifications, interpretable-models, chromhmm`, [paper]  
   — Introduces ShallowChrome, an interpretable feature-extraction and logistic-regression framework that models gene expression from histone modification profiles across 56 REMC cell types. Achieves state-of-the-art accuracy while enabling gene-specific regulatory interpretation and providing biologically coherent insights compared to ChromHMM chromatin state patterns.
 
+- *"Explainable Artificial Intelligence for Omics Data: A Systematic Mapping Study"*, 2023,  
+  `xai, omics, explainability, feature-relevance, visual-explanations, interpretable-models`, [paper]  
+  — Systematic mapping of 405 studies (2010–2023) applying XAI to genomics, transcriptomics, proteomics, and metabolomics. Highlights dominant AI methods (neural networks, tree-based, statistical models), preferred post-hoc explainability techniques (feature relevance, visual explanations), interpretable architectures, and eight major research directions for XAI in omics.
+
+- *"Personalized Health Monitoring Using Explainable AI: Bridging Trust in Predictive Healthcare"*, 2024,  
+  `explainable-ai, clinical-prediction, attention-mechanisms, shap, personalized-medicine`, [paper]  
+  — Introduces PersonalCareNet, a CNN–attention (CHARMS) deep learning framework combined with SHAP for global and patient-specific interpretability. Using MIMIC-III clinical data, the model achieves 97.86% accuracy while providing transparent local and global explanations through feature importance, force plots, and diagnostic heatmaps, enabling trustworthy real-time critical-care prediction.
+
+
 ---
 
 # 7. Transparent & Trustworthy AI Systems (General)
@@ -78,6 +91,17 @@ It focuses on building a structured reference for LLMs, MAS, XAI, transparency, 
 ---
 
 # 8. Transparency & Trustworthiness in Biomedical Analysis
+- *"Trust, Trustworthiness, and the Future of Medical AI: Outcomes of an Interdisciplinary Expert Workshop"*, 2025, J Med Internet Res,  
+  `trustworthy-ai, ethics, transparency, stakeholder-engagement, medical-ai-governance`, [paper]  
+  — Presents an interdisciplinary analysis of trust and trustworthiness in medical AI, highlighting limitations of purely technical fairness and explainability frameworks. Based on expert workshops in oncology imaging and genomics, the study emphasizes human-centered, multi-stakeholder involvement across the full AI lifecycle, showing that trust is a relational process shaped by users, institutions, and social contexts rather than a technical property of the model alone.
+
+- *"Trustworthy AI in Digital Health: A Comprehensive Review of Robustness and Explainability"*, 2024,  
+  `trustworthy-ai, robustness, explainability, digital-health, evaluation-metrics, llms`, [paper]  
+  — A comprehensive review of robustness and explainability methods for trustworthy AI in digital health. Covers feature-attribution XAI (SHAP, LIME, IG), gradient-based explanations, counterfactuals, robustness against distribution shifts, privacy and fairness frameworks, and trust evaluation metrics such as validity, fidelity, and diversity. Discusses trust challenges and opportunities in the era of LLMs for clinical AI.
+
+- *"Recommendations for Trustworthy Artificial Intelligence in Medical Imaging"*, 2024,  
+  `trustworthy-ai, medical-imaging, future-ai-framework, robustness, fairness, explainability`, [paper]  
+  — Translates the FUTURE-AI framework (Fairness, Universality, Traceability, Usability, Robustness, Explainability) into concrete implementation guidelines for medical imaging. Drawing on experience from five large European projects, the paper provides best-practice recommendations and an AI maturity checklist to support the development, evaluation, and deployment of clinically safe, transparent, and trustworthy imaging AI systems.
 
 
 ---
@@ -86,6 +110,10 @@ It focuses on building a structured reference for LLMs, MAS, XAI, transparency, 
 - *"A Survey on the Role of Artificial Intelligence in Biobanking Studies: A Systematic Review"*, 2022, Diagnostics,  
   `biobanking, machine-learning, deep-learning, biomedical-data, pipelines`, [paper]  
   — Systematic review of 18 AI-based studies using global biobank datasets (UK, Qatar, Japan, Singapore), covering ML/DL tools, QC pipelines, disease prediction models, and large-scale biomedical data profiling.
+
+- *"Non-Imaging Medical Data Synthesis for Trustworthy AI: A Comprehensive Survey"*, 2022, ACM Computing Surveys,  
+  `synthetic-data, trustworthy-ai, ehr, time-series, privacy, robustness`, [paper]  
+  — Comprehensive survey of statistical and deep learning–based algorithms for generating synthetic non-imaging medical data (EHR, lab tests, and biosignals). Reviews evaluation metrics for utility, fidelity, and privacy, discusses open-source datasets and toolkits (GANs, VAEs, CTGAN, Synthea), and outlines key challenges for building reliable and privacy-preserving medical AI systems.
 
 
 ---
