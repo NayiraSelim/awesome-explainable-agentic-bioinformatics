@@ -134,11 +134,11 @@ It focuses on building a structured reference for LLMs, MAS, XAI, transparency, 
   `biomedical-llms, clinical-nlp, model-development, transformer-architectures, survey`, [paper]  
   — A comprehensive PRISMA-guided review of 82 biomedical LLMs developed since 2022. The paper analyzes model architectures (dominated by decoder-only transformers such as Llama 7B), training strategies, biomedical corpora, and applications ranging from clinical NLP to chatbots and domain-specific biomedical reasoning. It highlights challenges including privacy constraints, limited transparency in model development, and restricted data sharing, and outlines future directions toward multimodal integration and specialized biomedical LLMs.
 
-**Are genomic language models all you need? Exploring genomic language models on protein downstream tasks (2024)**  
+- *Are genomic language models all you need? Exploring genomic language models on protein downstream tasks (2024)*  
 A foundational study evaluating genomic foundation models (gLMs) on protein downstream tasks.  
 The authors benchmark multiple Nucleotide Transformer models (50M–2.5B parameters), introduce a new 3-mer tokenization FM, and compare gLMs with protein LMs (pLMs). Results show gLMs are competitive with pLMs and that a joint genomic–proteomic FM provides superior performance. The work systematically analyzes tokenization choices, scaling behavior, representation learning, and cross-domain generalization, making it a core reference in FM development.
 
-**LucaOne: A Generalized Biological Foundation Model (2024)**
+- *LucaOne: A Generalized Biological Foundation Model (2024)*
 A unified transformer-based foundation model jointly trained on DNA, RNA, and protein sequences from 169,861 species. LucaOne integrates nucleic acid and protein languages within a single semi-supervised architecture, showing emergent understanding of the central dogma and delivering competitive performance across genomics, transcriptomics, and proteomics tasks. The model demonstrates strong few-shot generalization, cross-molecule representation learning, and applicability across diverse biological downstream analyses.
 
 - *"Open-source Large Language Models in Action: A Bioinformatics Chatbot for the PRIDE Database"*, 2024, EMBL-EBI  
