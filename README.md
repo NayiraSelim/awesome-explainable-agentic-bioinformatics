@@ -153,6 +153,49 @@ A unified transformer-based foundation model jointly trained on DNA, RNA, and pr
   `llms, bioinformatics, survey, protein-structure, genomics, drug-discovery`  
   — A comprehensive review covering the development and applications of LLMs across core bioinformatics domains, including protein/nucleic acid structure prediction, omics analysis, biomedical literature mining, and AI-driven drug design. Discusses key challenges such as interpretability, data bias, and the future potential of cross-modal and interdisciplinary LLM integration.
 
+- *"The gene function prediction challenge: large language models and knowledge graphs to the rescue"*, 2024  
+  `llms, knowledge-graphs, gene-function-prediction, plant-genomics, bioinformatics-review`  
+  — Reviews the current limitations in experimentally verified plant gene functions and evaluates modern computational approaches for predicting gene function. Highlights how recent advances in large language models and knowledge graphs can accelerate gene function annotation, overcome data sparsity, and integrate literature-derived biological knowledge to guide experimental discovery.
+
+- *"A multimodal conversational agent for DNA, RNA and protein tasks (ChatNT)"*, 2024  
+  `llms, biological-foundation-models, multimodal, dna-rna-protein, conversational-agent`  
+  — Introduces ChatNT, a multimodal conversational agent built on Nucleotide Transformer encoders, capable of solving DNA, RNA and protein bioinformatics tasks within a single unified LLM. Achieves state-of-the-art results on sequence benchmarks, generalizes to unseen biological queries, and supports interpretability via motif-level attribution (e.g., TATA boxes, splice sites). Provides a general-purpose, instruction-tuned AI assistant for molecular biology without requiring coding expertise.
+
+- *"Large language models for drug discovery and development"*, 2024  
+  `llms, drug-discovery, molecule-design, target-identification, clinical-trials`  
+  — A comprehensive review describing how LLMs accelerate the full pharmaceutical pipeline, including disease mechanism interpretation, target–disease linkage discovery, de novo molecule generation, toxicity and efficacy prediction, and optimization of clinical trial workflows. Highlights LLM-driven methodologies that significantly reduce cost and time in bringing new therapeutics to patients.
+
+- *"Large Language Models and Genomics for Summarizing the Role of microRNA in Regulating mRNA Expression"*, 2024  
+  `llms, nlp, genomics, mirna-mrna-interactions, text-mining`  
+  — Proposes an annotated miRNA–mRNA Interaction Corpus (MMIC) and evaluates ML models, transformer-based PubMedBERT, and LLMs (Llama-2) for extracting miRNA–mRNA regulatory interactions from the biomedical literature. PubMedBERT achieves the highest F-score (0.783), while Llama-2 shows strong recall in zero-shot and few-shot settings. Demonstrates the potential of LLM-driven NLP for genomics knowledge extraction and regulatory interaction discovery.
+
+- *"NextVir: Enabling classification of tumor-causing viruses with genomic foundation models"*, 2024  
+  `genomic-foundation-models, dna-llms, viral-classification, dnabert, nucleotide-transformer, hyenadna`  
+  — Introduces NextVir, the first multi-class oncovirus classification framework leveraging genomic foundation models. Fine-tunes DNABERT-S, Nucleotide Transformer, and HyenaDNA to classify sequencing reads by their viral species of origin, outperforming existing deep learning baselines. Demonstrates the downstream potential of DNA foundation models for cancer-associated viral genomics.
+
+- *"Large Language Models in Genomics: A Perspective on Personalized Medicine"*, 2024  
+  `llms, genomics, precision-medicine, personalized-medicine, genomic-analysis`  
+  — A perspective review discussing the impact of large language models on genomics and personalized medicine. Highlights advances in genomic data interpretation, prediction of medical outcomes, AI-driven disease diagnosis, and treatment optimization. Evaluates current limitations and future directions for integrating LLMs into precision healthcare workflows.
+
+- *MutBERT: Probabilistic Genome Representation Improves Genomics Foundation Models* (2025)  
+  `genomics-foundation-models, snp-representation, masked-language-modeling, population-genomics, dna-llms`
+  — MutBERT introduces a probabilistic masked language model that represents the human genome using allele-frequency–based distributions to better leverage population-scale variation. By efficiently focusing on SNP-rich regions, the model improves learning from large biobank datasets and mitigates redundancy in whole-genome training. Across multiple downstream tasks, MutBERT outperforms DNABERT-2, Nucleotide Transformer, and long-context models (HyenaDNA, MambaDNA), demonstrating superior variant-aware genomic representations.
+
+- *Biological Sequence Representation Methods and Recent Advances: A Review* (2025)  
+  `sequence-representation, bio-llms, embeddings, protein-representation, dna-rna-models`
+  — Biological-sequence representation methods are categorized into three major eras: computational feature-based encoding (k-mers, PSSM), word-embedding approaches (Word2Vec, GloVe), and modern LLM-based Transformers (ESM3, RNAErnie). LLMs capture long-range dependencies and support cross-modal inference, improving tasks like RNA and protein structure prediction. Despite their power, challenges remain, including computational cost, sensitivity to data quality, and limited interpretability. Future directions include multimodal integration, sparse attention for scalability, and explainable AI linking embeddings with biological function.
+
+
+- *MicroLLM: A Structured Information Extraction Tool Using Large Language Models and NER* (2025)  
+  `microbiology-nlp, llm-information-extraction, ner, biological-knowledge-graphs, text-mining`
+  — MicroLLM integrates fine-tuned LLMs with BERT-based named entity recognition to extract microbial phenotypic information from unstructured text. It converts literature into structured JSON objects, enabling automated retrieval of multi-entity and multi-relation microbial knowledge. This framework addresses the scarcity of annotated datasets and the limitations of traditional NLP, supporting the construction of large-scale microbial knowledge bases.
+
+
+- *Multimodal Large Language Models in Health Care: Applications, Challenges, and Future Outlook* (2025)  
+  `multimodal-llms, medical-ai, clinical-data-integration, medical-imaging, healthcare-llms`
+  — This review surveys multimodal LLMs (M-LLMs) that integrate text, imaging, signals, genomics, and clinical records for medical reasoning. Applications span radiology, surgery, pathology, and wearable-sensor analytics. Challenges include data silos, multimodal fusion complexity, hallucination risks, compute demands, and regulatory constraints. Future directions emphasize unified clinical agents, robust multimodal fusion, and next-generation AI-driven healthcare ecosystems.
+
+
 ---
 
 # 3. Multi-Agent Systems (General)
@@ -176,6 +219,10 @@ A unified transformer-based foundation model jointly trained on DNA, RNA, and pr
 ---
 
 # 5. Explainable & Interpretable Models (General)
+
+- *spaLLM: Enhancing Spatial Domain Analysis in Multi-Omics Data through LLM Integration*, 2024  
+  `llms, scgpt, spatial-transcriptomics, multi-omics, gnn, spatial-domain-analysis`  
+  — Introduces spaLLM, the first spatial multi-omics domain analysis method integrating single-cell foundation models (scGPT) with GNNs and multi-view attention. The model leverages LLM-derived gene embeddings to overcome sparse spatial gene expression and improves spatial domain resolution across RNA, chromatin, and protein modalities. Benchmarked on four datasets, spaLLM surpasses eight SOTA methods in supervised metrics, demonstrating the power of LLM-enhanced spatial biology.
 
 
 ---
@@ -201,6 +248,10 @@ A unified transformer-based foundation model jointly trained on DNA, RNA, and pr
 ---
 
 # 7. Transparent & Trustworthy AI Systems (General)
+
+- *"Multimodal large language models in medical research and clinical practice: Development, applications, challenges and future"*, 2024  
+  `multimodal-llms, medical-ai, clinical-informatics, trustworthy-ai, healthcare-systems`  
+  — A comprehensive review of multimodal LLMs in healthcare, covering vision–text–signal–EHR fusion, clinical diagnostic applications, infrastructure requirements, and ethical/compliance challenges. Provides a system-level framework for integrating MLLMs into intelligent healthcare workflows, highlighting bottlenecks such as data silos, fusion strategies, compute limitations, and regulatory constraints.
 
 
 ---
@@ -249,6 +300,13 @@ A unified transformer-based foundation model jointly trained on DNA, RNA, and pr
   `synthetic-data, trustworthy-ai, ehr, time-series, privacy, robustness`, [paper]  
   — Comprehensive survey of statistical and deep learning–based algorithms for generating synthetic non-imaging medical data (EHR, lab tests, and biosignals). Reviews evaluation metrics for utility, fidelity, and privacy, discusses open-source datasets and toolkits (GANs, VAEs, CTGAN, Synthea), and outlines key challenges for building reliable and privacy-preserving medical AI systems.
 
+- *"Generating pregnant patient biological profiles by deconvoluting clinical records with electronic health record foundation models"*, 2025  
+  `ehr-foundation-models, clinical-ai, proteomics-generation, fm-representations, biomedical-reliability`  
+  — Uses state-of-the-art EHR foundation models to reconstruct proteomic profiles from clinical data, generating 206 protein expression levels without laboratory assays. Highlights biological pathway enrichment, FM-derived patient state reconstruction, and a proteomic signature for gestational diabetes. Demonstrates how clinical FMs can reliably infer biological states, offering a cost-efficient alternative to traditional omics profiling.
+
+- *Exploring the Impact of Large Language Models on Disease Diagnosis*, Almubark (2024)  
+  `llms, clinical-diagnosis, medical-nlp, gpt4, llama, clinical-evaluation`  
+  — A systematic review evaluating how LLMs such as GPT-4, GPT-3.5, LLaMA, and Bard assist in disease diagnosis across chronic, respiratory, oncological, and rare conditions. The study assesses multimodal data sources (clinical text, medical images, genomic data) and reports improvements in diagnostic accuracy and decision support effectiveness.
 
 ---
 
